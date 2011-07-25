@@ -1,0 +1,27 @@
+GeoRSS Parser
+by Matt Briney
+
+-----------------------------------------
+Licensed under GPLv3
+
+You are welcome to copy this code but
+please fork the repository so we can
+keep track of changes!
+-----------------------------------------
+
+This cron script takes a GeoRSS feed from Foursquare, grabs the latest check-ins and dumps them into a MySQL database.  The script uses the Yahoo Placefinder API to reverse geocode your coordinates and fill in city, state and country.
+
+
+TO INSTALL
+- Download contents to your webserver
+- Dump the SQL file to your MySQL database to create the required tables
+- Edit config.inc and insert your Foursquare ID and database connections
+- Schedule cron.php to run at an interval you prefer
+
+
+FUTURE PLANS
+- Render a Google Map of all of the countries where you have visited
+- Render a Google Map of all of the states you have visited
+- Render a Google Map of all of the cities you have visited
+- Create a moving map of your check-ins
+- Move beyond Foursquare? - need ideas

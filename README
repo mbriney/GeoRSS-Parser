@@ -18,10 +18,11 @@ TO INSTALL
 - Edit config.inc and insert your Foursquare ID and database connections
 - Schedule cron.php to run at an interval you prefer
 
+MAPS
+- Once you have built your database you can load the states.php and world.php files to display aggregated locations of where you have been
+
 
 FUTURE PLANS
-- Render a Google Map of all of the countries where you have visited
-- Render a Google Map of all of the states you have visited
 - Render a Google Map of all of the cities you have visited
 - Create a moving map of your check-ins
 - Move beyond Foursquare? - need ideas
